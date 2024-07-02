@@ -1,7 +1,13 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class HoT{
     public static void main(String[] args) {
+        System.out.println("Who are you?");
+        Scanner sc = new Scanner(System.in);
+        String username = sc.next();
+        System.out.println("Hello,"+username+"!");
+        
         String[] hot = {"Heads", "Tails"};
         Random rdm = new Random();
         int heads=0, tails=0;

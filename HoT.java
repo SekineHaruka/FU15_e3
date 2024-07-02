@@ -19,7 +19,7 @@ public class HoT{
             if (j==1) tails++;
         }
         System.out.println("Heads: "+heads+", Tails: "+tails);
-        if(heads>=3) System.out.println("you won!");
-        else System.out.println ("you lose.");
+        if(heads>=3) System.out.println(username+" won!");
+        else System.out.println (username+" lose.");
     }
 }
